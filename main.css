@@ -1,1 +1,10 @@
-/* Put your css here for your table and page styling */
+ table, th, td {
+    border: 1px solid blue;
+   	border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
